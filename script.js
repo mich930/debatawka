@@ -46,18 +46,18 @@ var questions=[
 var answers=[];
 var partyAnswers=[
   ["TAK","TAK","NIE","TAK","NIE","TAK","NIE","TAK","NEUTRALNIE/INACZEJ","TAK","NIE","TAK","TAK","TAK","TAK","TAK","TAK","TAK","TAK","TAK","NIE","NIE","TAK","TAK","NIE","NIE","NIE"],
-  [],
-  [],
-  [],
+  ["BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK",],
+  ["BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK",],
+  ["BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK",],
   ["NEUTRALNIE/INACZEJ","NIE","TAK","NIE","TAK","NIE","TAK","NIE","TAK","NIE","TAK","NIE","TAK","TAK","TAK","TAK","TAK","NIE","TAK","TAK","TAK","NEUTRALNIE/INACZEJ","NIE","TAK","NIE","NEUTRALNIE/INACZEJ","NIE"],
-  [],
-  [],
+  ["BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK",],
+  ["BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK",],
   ["NEUTRALNIE/INACZEJ","TAK","TAK","NIE","TAK","NIE","NIE","NIE","TAK","NIE","TAK","NIE","TAK","TAK","TAK","TAK","TAK","NIE","TAK","TAK","TAK","NIE","NIE","TAK","NIE","NEUTRALNIE/INACZEJ","TAK"],
   ["NIE","NEUTRALNIE/INACZEJ","TAK","NIE","TAK","NIE","NEUTRALNIE/INACZEJ","NIE","TAK","NIE","TAK","NIE","NEUTRALNIE/INACZEJ","NEUTRALNIE/INACZEJ","NEUTRALNIE/INACZEJ","TAK","NEUTRALNIE/INACZEJ","NIE","NIE","TAK","TAK","NIE","NIE","TAK","TAK","NEUTRALNIE/INACZEJ","TAK"],
-  [],
-  [],
+  ["BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK",],
+  ["BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK",],
   ["TAK","TAK","TAK","NIE","TAK","NIE","NIE","NIE","TAK","NIE","TAK","TAK","TAK","TAK","TAK","NIE","TAK","TAK","TAK","TAK","NIE","NIE","NIE","NIE","NIE","TAK","TAK"],
-  []
+  ["BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK",]
 ];
 
 var results= new Map();
@@ -81,6 +81,7 @@ function createAnswerCell(row, content){
   cell.style.fontWeight = "bold";
 
   if(cell.innerText=="TAK") cell.style.color="green";
+  if(cell.innerText=="BRAK") cell.style.color="black";
   if(cell.innerText=="NIE") cell.style.color="red";
 }
 
