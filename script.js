@@ -32,6 +32,7 @@ var questions=[
   "Prawo aborcyjne powinno zostać zliberalizowane",
   "Legalizacja niektórych narkotyków to dobry pomysł",
   "Wpływ kościoła na państwo powinien zostać zmniejszony",
+  "Mowa nienawiści powinna być surowiej karana",
   "Polska powinna najszybciej jak to możliwe odejść od węgla",
   "Powinniśmy zbudować elektrownie atomową w Polsce",
   "Prezydent powinien mieć większe kompetencje",
@@ -44,20 +45,21 @@ var questions=[
 ];
 var answers=[];
 var partyAnswers=[
+  ["TAK","TAK","NIE","TAK","NIE","TAK","NIE","TAK","NEUTRALNIE/INACZEJ","TAK","NIE","TAK","TAK","TAK","TAK","TAK","TAK","TAK","TAK","TAK","NIE","NIE","TAK","TAK","NIE","NIE","NIE"],
   [],
   [],
   [],
+  ["NEUTRALNIE/INACZEJ","NIE","TAK","NIE","TAK","NIE","TAK","NIE","TAK","NIE","TAK","NIE","TAK","TAK","TAK","TAK","TAK","NIE","TAK","TAK","TAK","NEUTRALNIE/INACZEJ","NIE","TAK","NIE","NEUTRALNIE/INACZEJ","NIE"],
   [],
   [],
+  ["NEUTRALNIE/INACZEJ","TAK","TAK","NIE","TAK","NIE","NIE","NIE","TAK","NIE","TAK","NIE","TAK","TAK","TAK","TAK","TAK","NIE","TAK","TAK","TAK","NIE","NIE","TAK","NIE","NEUTRALNIE/INACZEJ","TAK"],
+  ["NIE","NEUTRALNIE/INACZEJ","TAK","NIE","TAK","NIE","NEUTRALNIE/INACZEJ","NIE","TAK","NIE","TAK","NIE","NEUTRALNIE/INACZEJ","NEUTRALNIE/INACZEJ","NEUTRALNIE/INACZEJ","TAK","NEUTRALNIE/INACZEJ","NIE","NIE","TAK","TAK","NIE","NIE","TAK","TAK","NEUTRALNIE/INACZEJ","TAK"],
   [],
   [],
-  [],
-  [],
-  [],
-  [],
-  [],
+  ["TAK","TAK","TAK","NIE","TAK","NIE","NIE","NIE","TAK","NIE","TAK","TAK","TAK","TAK","TAK","NIE","TAK","TAK","TAK","TAK","NIE","NIE","NIE","NIE","NIE","TAK","TAK"],
   []
 ];
+
 var results= new Map();
 var questionID=0;
 
@@ -91,7 +93,7 @@ function reset()
     </div>
 
     <div id="question">
-      <h3>Wykonaj krótki test składający się z 26 pytań i dowiedz się do której partii ci nabliżej!</h3>
+      <h3>Wykonaj krótki test składający się z 27 pytań i dowiedz się do której partii ci nabliżej!</h3>
     </div>
 
     <div id="buttons">
@@ -109,9 +111,9 @@ function startTest()
 {
   document.getElementById('buttons').innerHTML=`
   <button onclick="nextQuestion('TAK')">Zgadzam się</button>
-  <button onclick="nextQuestion('NIE WIEM')">Nie wiem</button>
+  <button onclick="nextQuestion('NEUTRALNIE/INACZEJ')">Neutralnie/inaczej</button>
   <button onclick="nextQuestion('NIE')">Nie zgadzam się</button>`;
-  document.getElementById('question').innerHTML=`<h3>${questions[0]}</h3>`;
+  document.getElementById('question').innerHTML=`<h3>${questions[0]}</h3><br><h4>Pytanie 1/27</h4>`;
 }
 
 function endTest()
@@ -131,7 +133,7 @@ function nextQuestion(answer)
   }
 
   questionID++;
-  document.getElementById('question').innerHTML=`<h3>${questions[questionID]}</h3>`;
+  document.getElementById('question').innerHTML=`<h3>${questions[questionID]}</h3><br><h4>Pytanie ${questionID+1}/27</h4>`;
 }
 
 function displayPartyAnswers(party)
@@ -188,6 +190,9 @@ function displayResults()
   for (var [party, result] of sorted.entries()){
     let newRow = document.createElement("tr");
     createCell(newRow, `${parties[party]}`);
+    let cell = newRow.cells[newRow.cells.length-1];
+    cell.style.fontWeight = "bold";
+
     createCell(newRow, `${result}/${questions.length}`);
     createCell(newRow, `${Math.round(result*100/questions.length)}%`);
     createButtonCell(newRow, party);
