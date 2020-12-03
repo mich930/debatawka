@@ -1,0 +1,43 @@
+body {
+  justify-content:center;
+}
+
+button:focus
+{
+  color: #FFF;
+  background: #9b4dca;
+}
+
+button:hover
+{
+  background: #606c76 !important;
+}
+
+#header
+  {
+	   margin: 0px auto;
+     background: #9b4dca;
+     padding: 1.5em;
+     text-align: center;
+     letter-spacing: 0.20em;
+     text-decoration: none;
+     font-size: 1.10em;
+     font-weight: 600;
+     text-transform: uppercase;
+     outline: 0;
+     color: #FFF;
+  }
+
+#question
+  {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 4em;
+  }
+
+table
+  {
+    width: 70%;
+    margin: 0 auto;
+  }
