@@ -94,7 +94,9 @@ function reset()
     </div>
 
     <div id="question">
-      <h3>Wykonaj krótki test składający się z 27 pytań i dowiedz się do której partii ci nabliżej!</h3>
+      <h3>Wykonaj krótki test składający się z 27 pytań i dowiedz się do której partii jest ci nabliżej!</h3>
+      <h4>Pełna zgodność odpowiedzi z daną partią oznacza 1 punkt, różnica jednej odpowiedzi (np. "TAK" i "NEUTRALNIE") to 0.5 punktu, a zupełna niezgodność ("TAK" i "NIE") to 0 punktów.
+      Na końcu otrzymasz wyniki i będziesz mógł zobaczyć odpowiedzi każdego komitetu na wszystkie pytania.</h4>
     </div>
 
     <div id="buttons">
@@ -215,6 +217,8 @@ function getResults()
     {
       let result = results.get(party)
       if(answers[question]==partyAnswers[party][question]) results.set(party, result+1);
+      else if((answers[question]=="TAK" && partyAnswers[party][question]=="NIE")||(answers[question]=="NIE" && partyAnswers[party][question]=="TAK") || partyAnswers[party][question]=="BRAK") results.set(party, result);
+      else results.set(party, result+0.5);
     }
   }
 
