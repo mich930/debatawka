@@ -107,7 +107,7 @@ function reset()
   questionID=0;
   answers.length=0;
   results.clear();
-  startTest();
+  //startTest();
 }
 
 function startTest()
