@@ -53,12 +53,40 @@ var partyAnswers=[
   ["BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK"],
   ["BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK","BRAK"],
   ["NEUTRALNIE/INACZEJ","TAK","TAK","NIE","TAK","NIE","NIE","NIE","TAK","NIE","TAK","NIE","TAK","TAK","TAK","TAK","TAK","NIE","TAK","TAK","TAK","NIE","NIE","TAK","NIE","NEUTRALNIE/INACZEJ","TAK"],
-  ["NIE","NEUTRALNIE/INACZEJ","TAK","NIE","TAK","NIE","NEUTRALNIE/INACZEJ","NIE","TAK","NIE","TAK","NIE","NEUTRALNIE/INACZEJ","NEUTRALNIE/INACZEJ","NEUTRALNIE/INACZEJ","TAK","NEUTRALNIE/INACZEJ","NIE","NIE","TAK","TAK","NIE","NIE","TAK","TAK","NEUTRALNIE/INACZEJ","TAK"],
+  ["NIE","NEUTRALNIE/INACZEJ","TAK","NIE","TAK","NIE","NEUTRALNIE/INACZEJ","NIE","TAK","NIE","TAK","NIE","NEUTRALNIE/INACZEJ","NEUTRALNIE/INACZEJ","NEUTRALNIE/INACZEJ","TAK","NEUTRALNIE/INACZEJ","NIE","NIE","TAK","TAK","NIE","NIE","TAK","NEUTRALNIE/INACZEJ","NEUTRALNIE/INACZEJ","TAK"],
   ["NEUTRALNIE/INACZEJ","TAK","TAK","TAK","NEUTRALNIE/INACZEJ","TAK","TAK","NIE","TAK","TAK","TAK","TAK","TAK","NIE","NIE","TAK","TAK","TAK","TAK","TAK","NIE","NIE","NEUTRALNIE/INACZEJ","TAK","NIE","TAK","TAK"],
   ["TAK","TAK","NIE","TAK","NIE","TAK","NIE","TAK","NIE","TAK","NIE","TAK","TAK","TAK","TAK","TAK","TAK","TAK","TAK","TAK","NIE","NIE","NIE","TAK","NIE","NIE","TAK"],
   ["TAK","TAK","TAK","NIE","TAK","NIE","NIE","NIE","TAK","NIE","TAK","TAK","TAK","TAK","TAK","NIE","TAK","TAK","TAK","TAK","NIE","NIE","NIE","NIE","NIE","TAK","TAK"],
   ["NEUTRALNIE/INACZEJ","TAK","TAK","NEUTRALNIE/INACZEJ","NEUTRALNIE/INACZEJ","NEUTRALNIE/INACZEJ","TAK","NIE","TAK","NIE","TAK","NIE","TAK","TAK","TAK","TAK","NEUTRALNIE/INACZEJ","NIE","TAK","TAK","NEUTRALNIE/INACZEJ","NIE","NIE","TAK","NIE","TAK","NEUTRALNIE/INACZEJ"]
 ];
+
+var partyLongAnswers=[
+  [],
+  ["Model Singapurski",,,,"Dobrowolny ZUS",,,,,,,,,,,,,,,,,,,,,"NATO tak, USA nie",],
+  [],
+  [],
+  ["Wprowadzenie systemu holenderskiego"],
+  [],
+  [],
+  ["Model mieszany",,"Zlikwidowane",,,"Powinniśmy dążyć do braku państwowych emerytur",,"Zlikwidowana","Docelowo likwidacja",,,,,,,"Legalizacja wszystkich narkotyków to dobry pomysł",,,,,,,,"Państwo federalne",,"NATO tak, USA nie",],
+  ["Nie. Służbę zdrowia należy sprywatyzować całkowicie, albo przekształcić ją w hybrydę w której obywatel dobrowolnie wpłaca część pieniędzy na konto, i z tego konta pobierane są środki na leczenie. Oczywiście wielkość wpłaty nie będzie takiej samej wielkości w przypadku każego obywatela. Obywatel powinien być oceniany pod względem wieku, historii zdrowotnej (historii zabiegów, szczepień i operacji.) Nasza partia proponuje zmodyfikowany system singapurski, w przeciwieństwie do którego wpłacając pieniądze na służbę zdrowia nie wpłacamy jej przy okazji na niepotrzebne rzeczy typu mieszkanie.",
+  "Zakładając, że pozostajemy przy obecnym systemie, należy zwiększyć wydatki na służbę zdrowia, i przyłożyć szczególną uwagę do tego by nie kształcić lekarzy w Polsce którzy później wyjadą za granicę zarabiać jako specjaliści medycyny. Należy wprowadzić rozwiązanie które zachęci młodych polskich lekarzy do pozostania w ich ojczystym kraju.",
+  "Zlikwidowane.","Nie. Nie wiem jak można popierać taki postulat widząc jak wyglądają bloki budowane przez prywatnych inwestorów.","Płacenie składek ZUS powinno być dobrowolne, a cały system ubezpieczeń (również tych system emerytalny) należy sprywatyzować.","Nie. System emerytalny należy sprywatyzować.",
+  "Jeśli wypłatą emerytur zajmą się prywatne firmy ubezpieczeniowe to każda z nich zawierając umowę z obywatelem ustali sobie z nim w jakim wieku obywatel przejdzie na emeryturę.",
+  "Wiele zawodów jest łatwiejszych do wykonywania od innych zawodów, ale w obu dziś obowiązuje ta sama stawka minimalna. Dlaczego? Jest to niesprawiedliwe dla wszystkich, i faworyzuje się w ten sposób najprostsze i najlżejsze zawody. Najlepiej gdyby pensja minimalna została zlikwidowana. Coś na wzór pensji minimalnej wytworzy się kiedy pracodawcy i pracownicy zaczną ustalać między sobą umowy w których każdy z zawodów zostanie oceniony subiektywnie przez obie strony. Jeśli pracownikowi nie będzie odpowiadała stawka, to poszuka innego pracodawcy, a jeśli pracodawca nie znajdzie pracownika chętnego podjęcia się pracy za ustaloną przez pracodawcę stawkę, to pracodawca będzie zmuszony zwiększyć wielkość wynagrodzenia.",
+  "Proste, że tak. Najlepiej gdyby zlikwidowano kwotę wolną i gdyby nikt nie płacił tak głupiego podatku.","Podatki powinny być jednoliniowe. Każdy powinien płacić podatki takiej samej wielkości które skalowałyby się procentowo tak samo niezależnie od obywatela. Nie można wymagać od kogoś by płacił większe podatki tylko dlatego, że zarabia więcej.",
+  "Są za wysokie, i jest ich zbyt dużo.","Nie. Jeśli zachęcimy duże firmy do inwestycji w Polsce poprzez zmniejszenie podatków, to coraz więcej firm się do nas przeniesie i więcej z nich będzie płaciło tutaj podatki, a przecież kilometrów kwadratowych starczy dla każdego, prawda?",
+  "Nie powinno być związków partnerskich tak samo jak nie powinno być małżeństw państwowych. Nikt nie powinien mieć prawa (a zwłaszcza urzędnik!) by interesować się tym z kim sypiamy i kogo wybraliśmy sobie za partnera życiowego.","W Polsce będac homoseksualistą można adoptować dziecko. Samotny facet lub samotna kobieta mogą adopotować dziecko i wychowywać je z osobą tej samej płci, tyle że w dokumentach ta druga osoba nie widnieje jako rodzic lub opiekun. Adopcja LGBT może być nie-fair w stosunku do dziecka które zwyczajnie może nie chcieć mieć dwóch mam lub dwóch tatusiów. Z perspektywy państwa dziecko ma wtedy 1 opiekuna. Zresztą, często poruszany jest ten temat, a nikt nie lubi wspominać o tym że w krajach gdzie adopcja przez pary homoseksualnye jest legalna wciąż występuje ten sam problem co w przypadku osób heteroseksualnych - mało kto chce adpotować dziecko które przekroczyło 3 rok życia! Nie powinno być małżeństw państwowych, i nie ma czegoś takiego jak związek małżeński osób homoseksualnych. Osoby takie nie mogą zawrzeć małżeństwa bo z definicji wynika że małżeństwo to związek kobiety i mężczyzny.",
+  "Ja osobiście uważam, że dopóki za aborcję nie płaci państwo to powinno zostać zliberalizowane, bo tracimy na tym my, a zarabia Słowacja. Natomiast jako partia jesteśmy za przywróceniem kompromisu aborcyjnego.","Legalizacja wszystkich narkotyków to dobry pomysł. Ale każdy narkotyk sprzedawany w sklepach powinien mieć na sobie nadrukowaną etykietę która powie nam czym właściwie jest ten produkt i jaki jest jego skład.",
+  "Kościół nie ma bezpośredniego wpływu na państwo. Na państwo wpływ ma demokracja, a w Polsce demokratycznie głosują głównie katolicy.","Nie. Dopóki ktoś nie kłamie nie powinien być karany za jakiekolwiek słowa.",
+  "Dlaczego? Czemu mamy marnować potencjał węgla jeśli reszta świata wykorzystuje węgiel. Proszę zajrzeć do statystyk i sprawdzić kto używa najwięcej węgla. Niemcy, którzy produkują 1/4 wszystkich europejskich zanieczyszczeń (23%)!","Oczywiście, że tak. Ma to mnóstwo pozytywnych zastosowań, a poza tym możemy na tym sporo zarobić jako państwo."
+,,,,,"Powinniśmy ją opuścić albo zmusić do przeprowadzenia zmian które zatrzymają tą okropną machinę! UE powinna standaryzować znaki drogowe, pozwalać na wolną wymianę dóbr i usług, a nie decydować za nas o tym  co powinniśmy robić we własnym państwie!",
+"Głównymi partnerami Polski powinny być państwa które w danym momencie mają najwięcej do powiedzenia w naszym regionie i na świecie. Proszę pamiętać że państwa nie zawierają ze sobą przyjaźni, tylko sojusze strategiczne.","Tak. Powinniśmy przedewszystkim powołać armię zawodową, zadbać o kondycję i wyszkolenie żołnierzy (proszę spojrzeć na przeciętnego generała w USA i w Polsce, przecież u nich wygląda on jak ex-sportowiec, a u nas co drugi wygląda jak Janusz z memów). Należy też zatrzymać proces tworzenia się 'armii za biurkiem'."],
+  ["System mieszany",,,,"Dobrowolny ZUS dla przedsiębiorców",,,,,,,,,,,,,,,,,,"Pojedynczy głos przechodni",,,,],
+  [],
+  [],
+  ["Służba zdrowia powinna być finansowana za pomocą bonów, lecz część zabiegów powinna być dokonywana prywatnie",,,"Państwo powinno udzielać kredytów mieszkaniowych bez oprocentowania","ZUS powinien zostać zreformowany, aby zapewnić minimalną emeryturę osobom w skrajnej biedzie, do czego obowiązkowy byłby dodatkowy prywatny fundusz dla osób pracujących",,,,,,,,,,,,"Taki wpływ realnie obecnie nie istnieje i jest napompowany przez antyklerykalną propagandę",,,,"Preferujemy zastąpić prezydenta Kanclerzem, który łączył by obowiązki premiera i prezydenta. Prezydent obecnie jest instytucją sprzeczną z trójpodziałem władzy",,,,,,"Powinniśmy się dostosować do wymogów NATO i pieniądze wydawać na bezpieczeństwo, także poprzeć amerykańskie bazy na naszym Terytorium"]
+]
 
 var results= new Map();
 var questionID=0;
@@ -83,6 +111,24 @@ function createAnswerCell(row, content){
   if(cell.innerText=="TAK") cell.style.color="green";
   if(cell.innerText=="BRAK") cell.style.color="black";
   if(cell.innerText=="NIE") cell.style.color="red";
+}
+
+function createButtonCell(row, party)
+{
+  let cell = row.insertCell(row.cells.length);
+  let button = document.createElement('button');
+  button.textContent = "Zobacz odpowiedzi komitetu";
+  button.setAttribute("onClick", `Javascript: displayPartyAnswers(${party});`);
+  cell.appendChild(button);
+}
+
+function createTestButtonCell(row, party, question)
+{
+  let cell = row.insertCell(row.cells.length);
+  let button = document.createElement('button');
+  button.textContent = "Pokaż wyjaśnienie";
+  button.setAttribute("onClick", `Javascript: displayLongAnswer(${party},${question});`);
+  cell.appendChild(button);
 }
 
 function reset()
@@ -152,14 +198,25 @@ function displayPartyAnswers(party)
   createCell(firstRow, "Pytanie:");
   createCell(firstRow, "Twoja odpowiedź:");
   createCell(firstRow, "Odpowiedź komitetu:");
+  createCell(firstRow, "");
+
   tableBody.appendChild(firstRow);
 
   for(question in questions)
   {
     let newRow = document.createElement("tr");
-    createCell(newRow, `${questions[question]}`);
-    createAnswerCell(newRow, `${answers[question]}`);
-    createAnswerCell(newRow, `${partyAnswers[party][question]}`);
+    createCell(newRow, questions[question]);
+    createAnswerCell(newRow, answers[question]);
+    createAnswerCell(newRow, partyAnswers[party][question]);
+
+    if(partyLongAnswers[party][question]!=undefined)
+    {
+        createTestButtonCell(newRow, party, question);
+    }
+    else
+    {
+        createCell(newRow,"");
+    }
 
     tableBody.appendChild(newRow);
   }
@@ -170,13 +227,26 @@ function displayPartyAnswers(party)
   document.getElementById('buttons').innerHTML=`<button onclick="displayResults()">Wróć do wyników</button>`;
 }
 
-function createButtonCell(row, party)
+function displayLongAnswer(party, question)
 {
-  let cell = row.insertCell(row.cells.length);
-  let button = document.createElement('button');
-  button.textContent = "Zobacz odpowiedzi komitetu";
-  button.setAttribute("onClick", `Javascript: displayPartyAnswers(${party});`);
-  cell.appendChild(button);
+  let table = document.getElementsByTagName("table")[0];
+  let row = table.insertRow(question+2);
+  let cell = row.insertCell(0);
+
+  cell.innerHTML = `<b>${partyLongAnswers[party][question]}</b>`;
+  cell.setAttribute('colspan', 4);
+
+  let buttonCell = table.getElementsByTagName("tr")[question+1].getElementsByTagName("td")[3];
+  buttonCell.innerHTML=`<button onclick="Javascript: hideLongAnswer(${party},${question});">Ukryj wyjaśnienie</button>`;
+}
+
+function hideLongAnswer(party, question)
+{
+  let row = document.getElementsByTagName("table")[0].getElementsByTagName("tr")[question+2];
+  if(row) row.parentNode.removeChild(row);
+
+  let buttonCell = document.getElementsByTagName("table")[0].getElementsByTagName("tr")[question+1].getElementsByTagName("td")[3];
+  buttonCell.innerHTML=`<button onclick="Javascript: displayLongAnswer(${party},${question});">Pokaż wyjaśnienie</button>`;
 }
 
 function displayResults()
