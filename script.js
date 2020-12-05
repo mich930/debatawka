@@ -153,6 +153,10 @@ function reset()
     <div id="buttons">
       <button onclick="startTest()">Rozpocznij test!</button>
     </div>
+
+    <div id="footer">
+      <p>Autor: Michał Kostyk</p>
+    </div>
   </center>
   `
   questionID=0;
@@ -275,6 +279,9 @@ function displayResults()
     createCell(newRow, `${Math.round(result*100/questions.length)}%`);
     createButtonCell(newRow, party);
     tableBody.appendChild(newRow);
+
+    let footer = document.getElementById("footer");
+    if(footer) footer.parentNode.removeChild(footer);
 }
 
   table.appendChild(tableBody);
