@@ -41,7 +41,17 @@ button:hover
   left: 0;
   bottom: 0;
   width: 100%;
+  margin: 0px auto;
   text-align: center;
+  background: #9b4dca;
+  padding: 1em;
+  text-align: center;
+  letter-spacing: 0.20em;
+  text-decoration: none;
+  font-size: 0.80em;
+  font-weight: 600;
+  color: #FFF;
+  text-transform: uppercase;
 }
 
 table

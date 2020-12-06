@@ -280,8 +280,8 @@ function displayResults()
     createButtonCell(newRow, party);
     tableBody.appendChild(newRow);
 
-    let footer = document.getElementById("footer");
-    if(footer) footer.parentNode.removeChild(footer);
+    //let footer = document.getElementById("footer");
+    //if(footer) footer.parentNode.removeChild(footer);
 }
 
   table.appendChild(tableBody);
