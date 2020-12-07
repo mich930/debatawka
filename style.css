@@ -54,8 +54,13 @@ button:hover
   text-transform: uppercase;
 }
 
+#backButton
+{
+  width: 47em;
+}
+
 table
   {
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
   }

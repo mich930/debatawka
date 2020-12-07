@@ -141,7 +141,7 @@ function reset()
   document.getElementsByTagName("body")[0].innerHTML=`
   <center>
     <div id="header">
-      Latarnik wyborczy
+      Latarnik wyborczy debatawki
     </div>
 
     <div id="question">
@@ -153,7 +153,11 @@ function reset()
     <div id="buttons">
       <button onclick="startTest()">Rozpocznij test!</button>
     </div>
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <div id="footer">
       <p>Autor: Michał Kostyk</p>
     </div>
@@ -170,7 +174,9 @@ function startTest()
   document.getElementById('buttons').innerHTML=`
   <button onclick="nextQuestion('TAK')">Zgadzam się</button>
   <button onclick="nextQuestion('NEUTRALNIE/INACZEJ')">Neutralnie/inaczej</button>
-  <button onclick="nextQuestion('NIE')">Nie zgadzam się</button>`;
+  <button onclick="nextQuestion('NIE')">Nie zgadzam się</button>
+  <br>
+  <button onclick="previousQuestion()" id="backButton">Cofnij</button>`;
   document.getElementById('question').innerHTML=`<h3>${questions[0]}</h3><br><h4>Pytanie 1/27</h4>`;
 }
 
@@ -191,6 +197,19 @@ function nextQuestion(answer)
   }
 
   questionID++;
+  document.getElementById('question').innerHTML=`<h3>${questions[questionID]}</h3><br><h4>Pytanie ${questionID+1}/27</h4>`;
+}
+
+function previousQuestion()
+{
+  if(questionID==0)
+  {
+    reset();
+    return;
+  }
+
+  questionID--;
+
   document.getElementById('question').innerHTML=`<h3>${questions[questionID]}</h3><br><h4>Pytanie ${questionID+1}/27</h4>`;
 }
 
